@@ -1,10 +1,10 @@
 [package]
 name = "mmo"
-version = "0.0.1"
+version = "0.0.1-pre"
 authors = ["Marco Amann <marco@pfudi.de>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-description = "The rust mmo crate"
+description = "The rust mmo framework"
 documentation = "https://docs.rs/mmo/"
 homepage = "https://dwarfhack.com/"
 readme = "README.md"
