@@ -1,0 +1,22 @@
+[package]
+name = "mmo"
+version = "0.0.2"
+authors = ["Marco Amann <marco@pfudi.de>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Libraries for building scalable game servers"
+documentation = "https://docs.rs/mmo/"
+homepage = "https://dwarfhack.com/"
+readme = "README.md"
+repository = "https://github.com/dwarfhack/mmo"
+
+[lib]
+name = "mmo"
+path = "src/lib.rs"
+
+[dependencies]
+mmo-core = "0.0.2"
+
+[[example]]
+name = "basic_mutstore_usage"
+path = "examples/mutstore/basic_mutstore_usage.rs"

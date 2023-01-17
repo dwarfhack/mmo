@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "mmo",
+    "mmo-core"
+]
+
+
+[patch.crates-io]
+mmo-core = { path = "mmo-core" }

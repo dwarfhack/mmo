@@ -1,0 +1,18 @@
+[package]
+name = "mmo-core"
+version = "0.0.2"
+authors = ["Marco Amann <marco@pfudi.de>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Core libraries for building scalable game servers"
+documentation = "https://docs.rs/mmo/"
+homepage = "https://dwarfhack.com/"
+readme = "README.md"
+repository = "https://github.com/dwarfhack/mmo"
+
+[lib]
+name = "mmo_core"
+path = "src/lib.rs"
+
+[dependencies]
+bumpalo = "3.11.1"

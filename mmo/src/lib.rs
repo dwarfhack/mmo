@@ -1,0 +1,1 @@
+pub use mmo_core::mutation;

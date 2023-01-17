@@ -1,0 +1,10 @@
+/target
+Cargo.lock
+
+callgrind.*
+cachegrind.*
+flamegraph.svg
+heaptrack.*
+perf.data
+perf.data.old
+massif.out.*
